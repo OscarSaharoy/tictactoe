@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 120%;
+}
+
+body {
+	display: grid;
+	background: #F0FAFF;
+	background: linear-gradient(135deg, rgba(246,253,255,1) 0%, rgba(228,250,255,1) 100%);
+	font-family: 'Nunito', sans-serif;
+	color: #4D87A4BB;
+}
+
+.central {
+	display: grid;
+	justify-self: center;
+	margin: 2rem 0rem;
+	padding: 1rem;
+	border-radius: 2rem;
+	box-shadow: 4px 4px 4px #00000018, -4px -4px 4px #ffffffff;
+}
+
+.board-holder {
+	border-radius: 2rem;
+	box-shadow: inset 4px 4px 4px #00000018, inset -4px -4px 4px #ffffffff;
+}
+
+.title {
+	display: grid;
+	justify-self: center;
+	margin: 2rem 0;
+}
+
+h1 {
+	justify-self: center;
+	font-size: 2.5rem;
+}
+
+.board {
+	margin: 1rem;
+	background: #4D87A499;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0.2rem;
+}
+
+.board svg {
+	background: #F0FAFF;
+	background: linear-gradient(135deg, rgba(246,253,255,1) 0%, rgba(228,250,255,1) 100%);
+	height: 6rem;
+	width:  6rem;
+	cursor: pointer;
+}
+
+.bottom {
+	display: grid;
+	justify-self: center;
+	justify-content: center;
+	margin: 2.5rem 0 0.75rem;
+}
+
+h3 {
+	justify-self: center;
+	font-size: 1.4rem;
+}
+
+a {
+	font-size: 1.4rem;
+	justify-self: center;
+	text-decoration: none;
+	color: #6ECEFF;
+}
