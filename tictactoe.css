@@ -9,7 +9,9 @@ body {
 	background: #F0FAFF;
 	background: linear-gradient(135deg, rgba(246,253,255,1) 0%, rgba(228,250,255,1) 100%);
 	font-family: 'Nunito', sans-serif;
-	color: #4D87A4BB;
+	color: #78a6bc;
+	align-content: center;
+	height: 100vh;
 }
 
 .central {
@@ -37,13 +39,49 @@ h1 {
 	font-size: 2.5rem;
 }
 
+.restart {
+	margin-bottom: 1rem;
+	color: #6ECEFF;
+	cursor: pointer;
+}
+
+.restart:hover {
+	color: #00F2FF;
+}
+
 .board {
 	margin: 1rem;
-	background: #4D87A499;
+	background: #78a6bc;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 0.2rem;
+}
+
+.fade {
+	opacity: 0.15;
+}
+
+.end-game-popup {
+	display: grid;
+	position: absolute;
+	justify-self: center;
+
+	width: 20rem;
+	height: 20rem;
+	margin-left: -10rem;
+	margin-top: -7.7rem;
+	top: 50%;
+	left: 50%;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.end-game-popup h3 {
+	align-self: center;
+	font-size: 2rem;
 }
 
 .board svg {

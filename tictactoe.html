@@ -14,10 +14,13 @@
 
 		<div class="title">
 			<h1> Tic Tac Toe </h1>
-			<h3> You're playing as O! </h3>
+			<h3> You're playing as Circles </h3>
 		</div>
+		
+		<h3 class="restart" onclick="restart()"> Restart </h3>
 
 		<div class="board-holder">
+
 			<div class="board">
 				<svg width="100" height="100"> </svg>
 				<svg width="100" height="100"> </svg>
@@ -28,9 +31,11 @@
 				<svg width="100" height="100"> </svg>
 				<svg width="100" height="100"> </svg>
 				<svg width="100" height="100"> </svg>
-
-				<script src="tictactoe.js"> </script>
 			</div>
+
+			<div class="end-game-popup hidden"> <h3> Circles Win! </h3> </div>
+
+			<script src="tictactoe.js"> </script>
 		</div>
 
 		<div class="bottom">
